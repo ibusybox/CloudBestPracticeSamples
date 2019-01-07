@@ -1,0 +1,2 @@
+# HuaweiCloudAOMMetrics
+华为云AOM自定义指标Demo
