@@ -109,14 +109,21 @@
 	</dependency>
 
 	<!-- https://www.huaweicloud.com/product/apig.html, in short feature this SDK will be added to HuaweiCloud Mirror: https://mirrors.huaweicloud.com/ -->
-	<dependency>
+	<!-- dependency>
 	    <groupId>com.huaweicloud.apig</groupId>
 	    <artifactId>java-sdk-core</artifactId>
 	    <version>3.0.8</version>
 	    <scope>system</scope>
 	    <systemPath>${project.basedir}/lib/java-sdk-core-3.0.8.jar</systemPath>
-	</dependency>
-	  
+	</dependency-->
+	
+	<!-- add  -->
+    <dependency>
+        <groupId>com.huawei.apigateway</groupId>
+        <artifactId>java-sdk-core</artifactId>
+        <version>3.0.8</version>
+    </dependency>
+		  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -124,4 +131,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <repositories>
+    <repository>
+      <id>huaweicloudsdk</id>
+      <name>huawei cloud sdk</name>
+      <url>https://mirrors.huaweicloud.com/repository/maven/huaweicloudsdk</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 </project>
