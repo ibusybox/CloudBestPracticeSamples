@@ -1,5 +1,7 @@
 # HuaweiCloudAOMMetrics
-Sample for report customized metrics to Huaweicloud [AOM](https://www.huaweicloud.com/product/aom.html)
+Sample for report customized metrics to Huaweicloud [AOM](https://www.huaweicloud.com/product/aom.html).
+
+This sample is wroten in Java language, for other languages reference the [API FULL SDK EN](https://support.huaweicloud.com/en-us/devg-apig/apig-en-dev-180307017.html) or [API FULL SDK 中文](https://support.huaweicloud.com/devg-apig/apig-zh-dev-180307017.html).
 
 ## AOM help documents
 https://support.huaweicloud.com/api-aom/aom_04_0000.html

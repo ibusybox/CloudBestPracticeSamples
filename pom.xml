@@ -16,6 +16,7 @@
 
   <modules>
 	<module>huaweicloud-aom-metrics</module>
+	<module>huaweicloud-kms-edecrypt</module>
   </modules>
 
 </project>
